@@ -1,0 +1,50 @@
+body {
+    background-color: #204020;
+    color: yellow;
+    
+}
+
+.form-group {
+    
+    position: relative;
+    font-size: larger;
+    padding-top: 3%;
+}
+
+input {
+    display: inline-block;
+}
+
+label {
+    width: 10%;
+    text-align: right;
+    border-spacing: 5%;
+    
+}
+
+label + input {
+    width: 50%;
+    margin: 0 30% 0 0%;
+}
+
+input + input {
+    float: right;
+}
+
+a:link {
+    color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: large;
+    padding: 2%;
+}
+
+p {
+    font-size: large;
+}
+
+
+a:visited{
+    color: yellow;
+}
+

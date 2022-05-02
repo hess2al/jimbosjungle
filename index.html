@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/stylesheet.css">
+<!--- the top of the index page containing the picture of the jungle, the list of links, and the form for search--->
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Jimbo's Australian Jungle Tours</title>
+    </head>
+
+<!--- body contains the paragraphs explaining about the company --->
+    <body>
+        <div class="grid-container" type="img">
+            <div class = "item2">
+                <img src="https://images.unsplash.com/photo-1569639634768-1fd136bd6226?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGF1c3RyYWxpYW4lMjBmb3Jlc3R8ZW58MHx8MHx8&w=1000&q=80" alt="Australian Forest Backgroup" />
+            </div>
+        </div>
+        <h2 id="greetings"></h2>
+        <h1>Jimbo's Australian Jungle Tours</h1>
+        
+        <div class="grid-container">
+                <ul>
+                    <li>
+                        <a href="trips.html">Book A Trip</a>
+                    </li>
+                    <li>
+                        <a href="animals.html">Common Animals Seen</a>
+                    </li>
+                    <li>
+                        <a href="about.html" id="aboutButton">About Jimbo </a>
+                    </li>
+                    <li>
+                        <a href="waivers.html">Waivers</a>
+                    </li>
+                    <li>
+                        <a href="login/register.php">Sign up</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class = "item1">
+                <form action="login/login.php" method="post">
+                    <div class="container">
+                      <label for="username"><b>Username:</b></label>
+                      <input type="text" placeholder="Enter Username" name="username" onsubmit="required()" required>
+                      <label for="password"><b>Password:</b></label>
+                      <input type="password" placeholder="Enter Password" name="password" onsubmit="required()" required>
+                      <button type="submit">Login</button>
+                </form>
+                
+                <form action="login/forgotpassword.php" method="post">
+                    <span class="password"> <a href="login/forgotpassword.php">Forgot password?</a></span>
+                </form>
+            </div>
+            
+            
+        </div>
+        <p style="font-variant:small-caps">
+            Welcome to Jimbo's Australian Jungle Tours! We have been a business in Australia for almost 15 years now! Our
+            company holds a great value behind its name because of the consistent excellent service we provide. We offer
+            multiple different kinds of tours through our local jungle for a great value! Stop on by at any time and share
+            some of the fun with us!
+        </p>
+        <p style="font-variant:small-caps">
+            2333 Cape Tribulation Rd, Cape Tribulation QLD 4873, Australia
+        </p>
+        
+    </body>
+    <script src="js/greeting.js"></script>
+    
+</html>

@@ -1,0 +1,111 @@
+﻿a:link {
+    color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: larger;
+    padding-left: 10px;
+}
+
+a:visited{
+    color: yellow;
+}
+
+.header {
+    display: none;
+    padding: 0% 23% 2% 0%;
+    z-index: 1000;
+    position: relative;
+}
+
+.menu-list {
+    border-top: 3px solid #dcb713;
+    background-color: #204020;
+    margin-left: -39%;
+    padding-top: .5%;
+    z-index: 000;
+    overflow: hidden;
+    font-size: large;
+    width: 102%;
+    height: 5%;
+    position: fixed;
+    text-align: center;
+}
+.menu-btn {
+    position: fixed;
+    right: 10%;
+    z-index: 2000;
+}
+.menu-btn {
+    display: inline-block;
+    width: 90px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    background: #dcb713;
+    text-decoration: none !important;
+    position: fixed;
+}
+.head {
+    position: fixed;
+    background: rgba(0, 0, 0, 1.0);
+    border-top: 3px solid #dcb713;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 10px 2%;
+    align-items: baseline;
+    width: 101%;
+    margin-left: -1%;
+    z-index: 1000;
+    font-size: large;
+    
+}
+.nav {
+    grid-column: 1/12;
+    display:flex; 
+    padding:10px 10px 10px 10px; 
+    justify-content:space-evenly;
+    justify-items:center;
+}
+/*This is the style sheet used for the about page*/
+body {
+    background-color: #204020;
+    color: #FFFFFF;
+}
+
+/*For the use of small media I used % signs here*/
+.column {
+    float: left;
+    width: 48%; 
+    height: 50%;
+    background-color: #204020;
+    padding: 1%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+h1 {
+    background-color: #204020;
+    color: yellow;
+    text-align: center;
+    
+}
+
+h2 {
+    color: yellow;
+}
+
+h3 {
+    font-size: x-large;
+    color: yellow;
+    padding: 2em 0em 0em;
+}
+
+p {
+    font-size: larger;
+    float: left;
+}
